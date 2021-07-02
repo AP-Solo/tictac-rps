@@ -2,7 +2,73 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0;
+    margin: 0 auto;
+    
+}
+.icon{
+    justify-content: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    /*add icon symbol*/
+}
+.h4{
+    margin-bottom: 0;
+    color:coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.paragraph{
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    text-align: center;
+}
+.span{
+    color:red;
+    line-height: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.ol{
+    width:800px;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-position: inside;
+    text-indent: 1in;
+    padding-left: inherit;
+}
+li{
+    margin-right: 0;
+    margin-left: 0;
+    border: inherit;
+    text-align: left;
+    list-style-position: inside;
+    border: 1px solid black;
+    padding-left: 1px;
+    
+    
+}
+
+.rules{
+    margin-bottom: 0;
+    text-align: left;
+    text-indent: 2.7in;
+    text-transform: uppercase;
+    font-size: 50px;
+    
 }
 :root{
     --cell-size:100px;
