@@ -9,18 +9,21 @@
     <title>Tic-tac-Battle</title>
 </head>
 <body>
-    <h1 class ="icon" >Heading Icon</h1>
-     <div id = "description" class ="description"><h4 class ="h4">Description:</h4><p class ="paragraph">The objective is to pick your spots and win over the boxes but if your plan fails the other player may win over your box and also your plan. <span class = "span">BE Aware!</span></p></div>
-    <div class = 'column'>
+    
+     <h1 class ="icon" >Heading Icon</h1>
+      <div id = "description" class ="description"><h4 class ="h4">Description:</h4><p class ="paragraph">The objective is to pick your spots and win over the boxes but if your plan fails the other player may win over your box and also your plan. <span class = "span">BE Aware!</span></p></div>
+     <div class = 'column'>
      <div id = "rules">
          <ol class ="ol">
              <h4 class = "rules">Rules</h4>
-             <li>One Match, Three rounds(IF NECESSARY).</li>
-             <li>Select three boxes total.</li>
-             <li>Players pick their selections for each box.</li>
-             <li>First player to match Three wins in Three consecutive boxes will win.</li>
-             <li>Rounds will continue until a player wins with 3 boxes in a row or until the boxes are all filled and a winner cannot be decided.</li>
-         </ol>     </div>
+             <li class = "li">One Match, Three rounds(IF NECESSARY).</li>
+             <li class = "li">Select three boxes total.</li>
+             <li class = "li">Players pick their selections for each box.</li>
+             <li class = "li">First player to match Three wins in Three consecutive boxes will win.</li>
+             <li class = "li">Rounds will continue until a player wins with 3 boxes in a row or until the boxes are all filled and a winner cannot be decided.</li>
+         </ol>    
+         </div>
+    
      <div class ="board" id = "game-board">
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
@@ -32,13 +35,18 @@
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
      </div>
+     
     </div>
-     <div data-winning-message></div>
-     <div class="win-message" id ="winMessage"></div>
-     <button id= "reset">Reset</button>
 
+    
 
-     <footer>Social Media links</footer>
+     <footer class ="footer" id="footer">
+         <ul>
+             <li class="anchor"><a href="https://twitter.com/" target ="blank">Twitter</a></li>
+             <li class="anchor"><a href="https://www.instagram.com/" target ="blank">Instagram</a></li>
+             <li class="anchor"><a href="https://www.facebook.com/" target ="blank">Facebook</a></li>
+         </ul>
+    </footer>
 
     <script src = "assets/js/script.js">    
     </script>

@@ -3,13 +3,13 @@
 }
 body{
     margin: 0 auto;
-    background-image:url(../images/1000_F_289896093_bnIp6I66LeQuuHr5RymKubKsCDf0u4pL.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+  
     
 }
+/*Header / icon section*/
 
 .icon{
+    
     justify-content: center;
     align-content: center;
     margin-right: auto;
@@ -17,6 +17,7 @@ body{
     width: 400px;
     /*add icon symbol*/
 }
+
 .h4{
     margin-bottom: 0;
     color:coral;
@@ -42,7 +43,7 @@ body{
     text-transform: uppercase;
 
 }
-
+/* Rules Section*/
 .ol{
     width:800px;
     justify-content: center;
@@ -53,21 +54,18 @@ body{
     list-style-position: inside;
     padding-left: inherit;
 }
-li{
-    
-    
+.li{  
     text-align: left;
     border: 3px solid rgb(4, 9, 82);
     border-style: dotted;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
-    
-    
-    
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
+.li:hover{
+    background-color: red;
+}
+
+
 
 .rules{
     margin-bottom: 0;
@@ -75,8 +73,9 @@ li{
     text-indent: 2.7in;
     text-transform: uppercase;
     font-size: 50px;
-    
+    color: rgb(95, 4, 95);
 }
+/* Game Board Section*/
 :root{
     --cell-size:200px;
     --mark-size:var(cal(var--cell-size)*.9)
@@ -99,4 +98,43 @@ li{
     height: var( --cell-size);
     background-color: black;
     border: 1px solid red;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    width:100px;
+    text-transform: uppercase;
+    text-size-adjust: 50px;
+    line-height: 50px;
+    background-color: purple;
+    
+
+}
+/*Footer section*/
+
+footer{
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+   
+}
+.anchor{
+    justify-content: center;
+    align-content: center;
+    margin-right:auto;
+    margin-left: auto;  
+    text-transform: capitalize;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+a:hover{
+    color:black;
+
 }
