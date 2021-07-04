@@ -1,22 +1,41 @@
+//html elements
+
+let cells = document.getElementsByClassName('cells');
+let board = []
+let rematch = document.getElementById('rematch');
+let gameStatus = document.getElementById('');
+
+// Game variables 
+
+let gameStart = true
+let playerChange = true
+
+// Event Listeners
+cells.addEventListener('click', pickBoxes);
+rematch.addEventListener('click', reMatch);
+
+// event handlers
 function startgame(){
 
 }
 
-function cells(){
-//rock papper sissors option inside each cell
+function pickBoxes(event){
+    for(let cubes of cells){
+       
+    }
 }
 
-function gameStatus(){
+function gameStatus(event){
 // win, lose or draw
 }
 
-function restartMatch(){
+function reMatch(event){
 // rematch (reset the game)
 }
 
-function quitgame(){
-        
+function playerTurns(){
+    
 }
 function winningCombinations(){
-    
+// create an array
 }
