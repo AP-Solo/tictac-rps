@@ -39,3 +39,13 @@ function playerTurns(){
 function winningCombinations(){
 // create an array
 }
+
+// step 1: player chooses x or O
+
+// step 2: step user click on box; add choice
+
+// step 3: switch player, computer adds choice
+
+//step 4: decide state of game from outcome: win, lose, draw
+
+// step 5: supply rematch.

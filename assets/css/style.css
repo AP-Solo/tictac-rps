@@ -26,7 +26,7 @@ body{
 .h4{
     margin-bottom: 0;
     color:coral;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans',sans-serif;
     text-decoration: underline;
     letter-spacing: 10px;
     margin-left: auto;
@@ -37,7 +37,7 @@ body{
 }
 .paragraph{
     justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI',sans-serif;
     margin-top: 0;
     text-align: center;
 }
@@ -64,7 +64,7 @@ body{
     border: 3px solid rgb(4, 9, 82);
     border-style: dotted;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-family: 'Franklin Gothic Medium', sans-serif;   
 }
 .li:hover{
     background-color: white;
