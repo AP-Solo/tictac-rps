@@ -1,51 +1,46 @@
-//html elements
-
-let cells = document.getElementsByClassName('cells');
-let board = []
-let rematch = document.getElementById('rematch');
-let gameStatus = document.getElementById('');
-
-// Game variables 
-
-let gameStart = true
-let playerChange = true
-
-// Event Listeners
-cells.addEventListener('click', pickBoxes);
-rematch.addEventListener('click', reMatch);
-
-// event handlers
-function startgame(){
-
-}
-
-function pickBoxes(event){
-    for(let cubes of cells){
-       
-    }
-}
-
-function gameStatus(event){
-// win, lose or draw
-}
-
-function reMatch(event){
-// rematch (reset the game)
-}
-
-function playerTurns(){
+const circle = "O";
+const cross = "x";
+const boxes = document.getElementsByClassName('class');
+for(i=0; i < boxes.length; i++){
+    boxes.addEventListner('click', buttonClick);
     
 }
-function winningCombinations(){
-// create an array
+
+
+// Game status
+const winningPatterns = [
+    [0,1,2],
+    [3,4,5],
+    [6,7,8],
+    [0,3,6],
+    [1,4,7],
+    [2,5,8],
+    [0,4,8],
+    [2,4,6]
+]
+
+function result(){
+    if (winningPatterns){
+        console.log("Winner");}
+        else{
+            console.log("Tie Game")
+        };
+}
+function buttonClick(event){
+    console.log(circle);
 }
 
-// step 1: player chooses x or O
 
-// step 2: step user click on box; add choice
 
-// step 3: switch player, computer adds choice
+//game start
+//player selection x,o
+//add selection
+//switch player
+//decide result
+//Rematch option
 
-//step 4: decide state of game from outcome: win, lose, draw
-
-// step 5: supply rematch.
+function gameStart(){}
+function playerSelect(){}
+function playerSwitch(){}
+function decideResult(){}
+function rematch(){}
