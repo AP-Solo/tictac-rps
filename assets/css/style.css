@@ -72,7 +72,7 @@ body{
     height: var( --cell-size);
     background-color: transparent;
     border: 5px double gold;
-    
+    cursor: pointer;
 }
 .cell:nth-of-type(1),
 .cell:nth-of-type(2),
@@ -109,4 +109,44 @@ button{
     background-color: purple;
     display: inline-block;
 
+}
+.board.turn-x.cell:not(.x):not(.o):hover:before,
+.board.turn-x.cell:not(.x):not(.o):hover:before,
+.cell.x::before,
+.cell.x::after{
+    background-color: rgb(10, 10, 12);
+    content: '';
+    display: block;
+    position:absolute;
+    top: 37%;
+    left: 30%;
+    width: 15px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.cell.x::before{
+    transform: translate(50%, -50%) rotate(-45deg);
+}
+.cell.x::after{
+    transform: translate(50%, -50%) rotate(45deg);
+}
+
+.cell.o::before{
+    
+    content: '';
+    display: block;
+    position:absolute;
+    top: 30%;
+    left: 44%;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 20px solid green;
+}
+
+.cell.x,
+.cell.o{
+    cursor: not-allowed;
 }
